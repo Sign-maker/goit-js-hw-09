@@ -1,0 +1,12 @@
+.btn-wrapper button {
+  font-size: 30px;
+  padding: 10px;
+}
+.btn-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
