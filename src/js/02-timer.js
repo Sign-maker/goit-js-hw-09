@@ -82,7 +82,7 @@ flatpickr(refs.inputDate, flatpickrOptions);
 Notify.init(notifyOptions);
 
 function onFlatpickrClose(selectedDates) {
-  restDate = selectedDates[0] - Date.now();
+  const restDate = selectedDates[0] - Date.now();
   if (restDate <= 0) {
     Notify.failure('Please choose a date in the future');
     return;
